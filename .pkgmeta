@@ -1,0 +1,4 @@
+package-as: FishPoleEquipped
+
+ignore:
+  - README.md

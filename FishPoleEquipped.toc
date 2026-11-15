@@ -1,0 +1,11 @@
+## Interface: 16001, 120105
+## Title: FishPoleEquipped
+## Notes: Shows an icon (movable in Edit Mode) while a fishing pole is equipped.
+## Notes-frFR: Affiche une icône (déplaçable en mode Édition) quand une canne à pêche est équipée.
+## Version: @project-version@
+## SavedVariablesPerCharacter: FishPoleEquippedDB
+
+Libs\LibEditMode\namespaced.lua
+Libs\LibEditMode\embed.xml
+
+FishPoleEquipped.lua
