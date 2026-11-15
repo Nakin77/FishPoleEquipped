@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE68A"/>
+      <stop offset="0.5" stop-color="#FFC400"/>
+      <stop offset="1" stop-color="#A86F00"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1B3A"/>
+      <stop offset="0.55" stop-color="#34507F"/>
+      <stop offset="0.68" stop-color="#E9A866"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E6688"/>
+      <stop offset="1" stop-color="#0A1F33"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#5A3417"/>
+      <stop offset="1" stop-color="#B7814A"/>
+    </linearGradient>
+    <clipPath id="inner"><rect x="44" y="44" width="424" height="424" rx="70"/></clipPath>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="url(#gold)"/>
+  <rect x="38" y="38" width="436" height="436" rx="76" fill="#14110D"/>
+
+  <g clip-path="url(#inner)">
+    <rect x="44" y="44" width="424" height="260" fill="url(#sky)"/>
+    <g fill="#FFFFFF">
+      <circle cx="96" cy="92" r="3"/><circle cx="196" cy="70" r="2"/><circle cx="246" cy="118" r="2.5"/>
+      <circle cx="318" cy="80" r="2"/><circle cx="140" cy="150" r="2"/>
+    </g>
+    <circle cx="176" cy="290" r="42" fill="#FFD27A"/>
+    <path d="M44 284 Q110 246 170 272 Q240 238 310 266 Q380 244 468 270 L468 300 L44 300 Z" fill="#1B2A44"/>
+    <rect x="44" y="296" width="424" height="176" fill="url(#water)"/>
+    <g stroke="#FFD27A" stroke-linecap="round" opacity="0.75">
+      <line x1="140" y1="312" x2="212" y2="312" stroke-width="6"/>
+      <line x1="154" y1="330" x2="198" y2="330" stroke-width="5"/>
+      <line x1="164" y1="348" x2="188" y2="348" stroke-width="4"/>
+    </g>
+    <g fill="none" stroke="#FFFFFF" opacity="0.55">
+      <ellipse cx="352" cy="346" rx="48" ry="10" stroke-width="4"/>
+      <ellipse cx="352" cy="346" rx="82" ry="18" stroke-width="3" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- line from the tip down to the bobber -->
+  <path d="M424 92 Q446 220 352 304" fill="none" stroke="#F4EAD2" stroke-width="3"/>
+  <!-- bobber -->
+  <line x1="352" y1="306" x2="352" y2="290" stroke="#1A1A1A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M326 330 A26 26 0 0 1 378 330 Z" fill="#D8282F"/>
+  <path d="M326 330 A26 26 0 0 0 378 330 Z" fill="#F4F1EA"/>
+  <circle cx="352" cy="330" r="26" fill="none" stroke="#1A1A1A" stroke-width="4"/>
+  <!-- pole -->
+  <path d="M70 460 Q240 210 424 92" fill="none" stroke="#1A1A1A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M70 460 Q240 210 424 92" fill="none" stroke="url(#wood)" stroke-width="11" stroke-linecap="round"/>
+  <line x1="70" y1="460" x2="112" y2="400" stroke="#1A1A1A" stroke-width="28" stroke-linecap="round"/>
+  <line x1="70" y1="460" x2="112" y2="400" stroke="#C99A5B" stroke-width="20" stroke-linecap="round"/>
+  <!-- reel -->
+  <circle cx="138" cy="392" r="22" fill="#C8CCD2" stroke="#1A1A1A" stroke-width="5"/>
+  <circle cx="138" cy="392" r="7" fill="#1A1A1A"/>
+</svg>

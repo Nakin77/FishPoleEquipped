@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+  <rect x="3" y="3" width="1274" height="394" rx="36" fill="#14110D" stroke="#5A4A12" stroke-width="3"/>
+  <image href="logo.svg" x="40" y="40" width="320" height="320"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="bold">
+    <text x="408" y="172" font-size="60" letter-spacing="22" fill="#F5D77A">FISH POLE</text>
+    <text x="402" y="292" font-size="118" letter-spacing="4" fill="#F3EAD8">EQUIPPED</text>
+  </g>
+  <line x1="410" y1="328" x2="1200" y2="328" stroke="#4A3D10" stroke-width="7" stroke-linecap="round"/>
+  <line x1="410" y1="328" x2="1050" y2="328" stroke="#F2C230" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1036 328 A14 14 0 0 1 1064 328 Z" fill="#D8282F"/>
+  <path d="M1036 328 A14 14 0 0 0 1064 328 Z" fill="#F4F1EA"/>
+  <circle cx="1050" cy="328" r="14" fill="none" stroke="#1A1A1A" stroke-width="3"/>
+</svg>

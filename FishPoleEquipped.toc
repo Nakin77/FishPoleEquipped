@@ -3,6 +3,7 @@
 ## Notes: Shows an icon (movable in Edit Mode) while a fishing pole is equipped.
 ## Notes-frFR: Affiche une icône (déplaçable en mode Édition) quand une canne à pêche est équipée.
 ## Version: @project-version@
+## IconTexture: Interface\AddOns\FishPoleEquipped\Media\Icon
 ## SavedVariablesPerCharacter: FishPoleEquippedDB
 
 Libs\LibEditMode\namespaced.lua
